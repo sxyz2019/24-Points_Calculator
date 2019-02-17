@@ -1,0 +1,139 @@
+二十四点计算器-标准5.3-使用说明
+
+还在为算不出二十四点而苦恼吗？
+还在被无解的情况所坑到吗？
+还因为买不起扑克牌而玩不了二十四点吗？
+二十四点计算器为你解决一切！
+吊打人类的运算速度、高效稳定的分治算法、经典美观的界面设计、丰富多样的模式选择，让你欲罢不能！
+5.3版全新升级，兼容性更强、可用性更强，带给你不一样的软件体验；649行代码纯手工打造，只为最完美的程序设计！
+全球限量，仅有二台！
+
+注意：请使用英文输入法，中文会bug
+1.启动方法：
+  双击exe文件，即可打开（全屏使用，效果更佳）
+2.选择模式：
+  在封面输入"s"后即可进入模式选择界面，根据英文提示选择出题模式(a)或计算模式(c)（请用英文输入法）
+  Tip:在封面输入"About"可以查看产品的相关信息
+  在模式选择界面输入"return"可以返回封面
+3.计算模式：（专业吊打各类奥数生、会计师、数学老师、竞赛选手、特级教练）
+  进入计算模式后，输入你要计算的四个数字，按下回车，电脑会自动帮你计算出所有可能的答案，并统计答案数量
+  看完答案后，按一次回车，即可继续计算新一组数据
+  在计算模式中，输入“return”(注意大小写）可自动返回模式选择界面
+4.出题模式：（妈妈再也不用担心摸出来的牌无解了！）
+  进入出题模式后，首先选择难度(简单/普通/困难/随机）根据提示输入相关英文单词，随后按下回车，开始答题。
+  电脑会随机产生四个数字给你（保证一定有解），你要做的就是将这四个数字算成24，并将你的计算表达式输入电脑。(乘号请用*）
+  电脑会自动判断你的答案是否正确，并且统计你的作答时间，然后将检验结果输出至屏幕。检验完成后，将自动为你产生新一组数据
+  如果你算不出来，输入"I failed"（注意大小写）,电脑会公布答案。看完答案后，按下回车进入下一组数据
+  在出题模式中,输入“return”可自动返回模式选择界面
+  注意：你的计算表达式应当有合法的格式，以下答案都会被判错：
+  ((1+2+3)*4       (多了一个左括号）
+  (1+2)(3+4)      （乘号不能省略）
+  (+1+2)*(3+4)    （多余的运算符）
+  (1+2)^(3+4)     （不是四则运算）
+  (1+2)\(3+4)     （除号写反了，应该是/）
+  1+2+3+4@        （存在不和法的字符）
+  【1+2】*（3+4）  (没有使用英文括号）
+  但以下答案是合法的：
+  (3-1)*[5+7]      （允许使用中括号）
+  [3-1]*{5+7}      （允许使用大括号）
+  （)+(3-1)*(5+7)   （有多余的括号，但是互相匹配）
+ （[3-1]*{5+7}）   （我们的电脑忽略括号形式的错误）
+  [[[[[[[[[[[[[[[[[[[[(((((3-1)))))]]]]]]]]]]]]]]]]]]]]*(5+7)      （这个也是正确的，因为你的括号相互匹配）
+  (但是当括号数量超过1000个的时候，电脑就会被你卡掉）
+
+  另外，如果你是手残党，特别喜欢打空格，我们还有一个特别人性化的设计：
+               8     *     (    12      -    4     -     5      )                    这个答案算正确
+  但你不应该在数字中间打空格，那样就不符合数学规则了
+               8  *(1      2-4-5)       这个答案算格式错误
+5.如果你看不懂软件中的英文语句，请看如下参照：
+  24-Points
+  二十四点
+
+  Devloped by Wang Zhijian & Xu Xing
+  开发者：王之鉴 徐行
+
+  Press Enter to continue...
+  按回车继续。。。
+
+  You can input 'About' to view the information about the software.
+  你可以输入"About"来查看本软件的相关信息。
+
+  You can also input 's' to start your game.
+  你也可以输入"s"来开始你的游戏。
+
+  Which pattern would you like to play? Please input 'a' for problem set pattern, and 'c' for calculating pattern
+  想玩什么模式？输入'a'进入出题模式，输入'c'进入计算模式
+
+  Format Error! Please input again!
+  格式错误！请重新输入！
+  
+  Input your four numbers:
+  输入你要计算的四个数字：
+  
+  (If you don't want to calculate, you can input 'return' to choose the pattern again)
+ （如果你不想再用计算模式，可以输入"return"再次选择模式）
+
+  No Answer
+  无解
+
+  There are xx answers.
+  有xx个答案
+
+  That's awful!
+  这很可怕!（答案多于100个的时候会输出这句话）
+
+  Are you ready? The computer is going to challenge you...
+  准备好接受电脑的挑战了吗？
+
+  (If you don't want to play, please input 'return' to choose the pattern again.)
+ （如果你不想再用出题模式，请输入“return”重新选择模式）
+
+  Difficulty:Simple
+  难度：简单
+
+  Difficulty:Medium
+  难度：普通
+
+  Difficulty:Hard
+  难度：困难
+
+  Please calculate and input your answer:
+  请计算并输入你的答案：
+
+  You can input 'I failed' to view the answers.
+  你可以输入"I failed" 来查看答案。
+
+  Correct:    Wrong:    Give up:   Adverge Time:
+  正确：      错误：      放弃：      平均用时：（N/A表示目前还没有平均用时）
+ 
+  Make persistent efforts!
+  再接再厉！
+
+  Congratulations! The answer is correct.
+  恭喜！答案正确
+
+  Time:x.xxs
+  用时：x.xxs
+  
+  So fast!
+  真快！（用时小于等于10秒会输出这个）
+
+  Wrang answer! Please input again!
+  答案错误！请重新输入！
+
+（以下是对软件信息的中文翻译：）
+  
+  二十四点计算器由王之鉴于2018年10月20日发明，为裘舒雯特别开发。
+  名称：二十四点计算器
+  主要功能：出题与计算
+  开发者：王之鉴、徐行
+  开发环境：Dev-C++ 5.6.1  g++ 4.9.8  Windows 10
+  版本：STD-1.0 STD-2.0 STD-2.5 STD-2.7 STD-2.9 STD-3.1 STD-3.5 STD-3.6 SIM-3.6
+           STD-4.6 STD-4.7 STD-4.8 STD-4.9 STD-5.1 STD-5.2 STD-5.3
+  建议处理器：Intel Core i5-6200U CPU @ 2.30GHZ 2.40GHZ, 64位
+  建议内存（RAM）：>=4.00GB
+  建议显示器尺寸：1366*768
+  建议系统：Windows 10
+
+  Copyright(c) 2018 王之鉴 徐行。保留所有权利。
+  未经允许，请勿转载
